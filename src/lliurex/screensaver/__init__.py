@@ -10,7 +10,7 @@ class InhibitScreensaver:
 	def __init__(self):
 
 			bus=dbus.SessionBus()
-			proxy=bus.get_object("org.freedesktop.ScreenSaver","/ScreenS`aver")
+			proxy=bus.get_object("org.freedesktop.ScreenSaver","/ScreenSaver")
 			self.iface = dbus.Interface(proxy,"org.freedesktop.ScreenSaver")
 			self.cookie_path = os.path.join(str(Path.home()),'.inhibit_screensaver')
 	def inHibit(self):

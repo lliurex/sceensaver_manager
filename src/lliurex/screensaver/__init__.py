@@ -13,12 +13,6 @@ class InhibitScreensaver:
 
 			proxy=bus.get_object("org.freedesktop.ScreenSaver","/ScreenSaver")
 			self.iface = dbus.Interface(proxy,"org.freedesktop.ScreenSaver")
-			if sys.argv[1]=="preActions":
-				self.inHibit()
-
-			elif sys.argv[1]=="postActions":
-				self.unInhibit()
-
 
 	def inHibit(self):
 

@@ -1,3 +1,9 @@
+screensaver-manager (0.25.1) jammy; urgency=medium
+
+  * Fixed setup.py
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Wed, 30 Aug 2023 15:24:02 +0200
+
 screensaver-manager (0.25) jammy; urgency=medium
 
   * Initial release for jammy

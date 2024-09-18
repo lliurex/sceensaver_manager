@@ -1,3 +1,9 @@
+screensaver-manager (0.35.1) noble; urgency=medium
+
+  * Initial release for noble
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Wed, 18 Sep 2024 09:06:19 +0200
+
 screensaver-manager (0.25.1) jammy; urgency=medium
 
   * Fixed setup.py
